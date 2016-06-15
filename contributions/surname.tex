@@ -1,0 +1,38 @@
+% \documentclass[thesissizeA4]{papercollection}
+% \usepackage[right=30mm,left=30mm,top=35mm,bottom=30mm,bindingoffset=5mm]{geometry}
+% \usepackage{graphicx}
+% 
+% %\usepackage{showframe} % to check overfull boxes
+% 
+% \begin{document}
+\begin{papers}
+
+\paperauthor{\underline{Full Speaker}, Second Author and Third Author}
+\paper[Speaker N.: Short Talk title]{Talk title}
+
+%Insert abstract here.
+The abstract can not exceed 1 page (figures and tables included) and \texttt{eps} format is preferred for graphics files. Please, rename abstract and figures files with your surname.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=.5\textwidth]{surname-figurename}
+  \caption{Figure caption.} \label{fig:surname-figurename}
+\end{figure}
+
+\begin{table}[!h]
+  \centering
+  \caption{Table caption.} \label{tab:surname-tablename}
+  \begin{tabular}{lrc}
+    \hline
+    Column 1 & Column 2 & Column 3 \\[3pt]
+    \hline
+    Value 1a & Value 2a & Value 3a \\
+    Value 1b & Value 2b & Value 3a \\
+    \hline
+  \end{tabular}
+\end{table}
+
+If needed, references have to be included as \texttt{footnote}: examples for journal article\footnote{F. Author, S. Author and T. Author (Year) \textit{Title}, Journal \textbf{0}(0):99-999} and book\footnote{F. Author, S. Author and T. Author (Year) \textit{Title}, Publisher} are given here.
+
+\end{papers}
+% \end{document}
