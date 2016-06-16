@@ -2,6 +2,8 @@
 Template for collection of abstracts for kick-off meeting at Stability
 and Control group (KTH Mechanics).
 
+Nicolò Fabbiane, June 2016
+
 ## Usage
 The template is meant to simplify the organisation of the kick-off
 presentation schedule.
