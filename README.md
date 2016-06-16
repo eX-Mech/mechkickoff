@@ -17,8 +17,8 @@ presentation schedule.
 3. Modify the collected abstracts by commenting the preamble and the
    `\begin{document}` and `\end{document}` statements.
 
-4. Include the abstract in the main document `kick-off.tex` as the
-   talks will be given during the meeting.
+4. Include the abstracts in the main document `kick-off.tex` via the
+   command `\input` according the the meeting schedule.
 
 ## Makefile
 A `Makefile` has been written for this template. The options are
